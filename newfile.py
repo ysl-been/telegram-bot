@@ -8,7 +8,7 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN = "8821818080:AAHkcQdA38wAFPXkwiR8cxt67wBmxQj4fOQ"
+TOKEN = "YOUR_TOKEN"
 
 # ==================================================
 # 五子棋设置
