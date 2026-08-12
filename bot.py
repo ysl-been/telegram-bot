@@ -16,7 +16,8 @@ TOKEN = os.getenv("TOKEN")
 # 五子棋设置
 # ==================================================
 
-SIZE = 19
+ROWS = 13
+COLS = 9
 
 games = {}
 
@@ -59,8 +60,8 @@ async def fallback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def create_board():
     return [
-        ["." for _ in range(SIZE)]
-        for _ in range(SIZE)
+        ["." for _ in range(COLS)]
+        for _ in range(ROWS)
     ]
 
 
