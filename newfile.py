@@ -8,7 +8,9 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN = "YOUR_TOKEN"
+import os
+
+TOKEN = os.getenv("TOKEN")
 
 # ==================================================
 # 五子棋设置
